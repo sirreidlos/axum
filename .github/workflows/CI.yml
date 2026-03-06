@@ -5,6 +5,7 @@ env:
   MSRV: '1.80'
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
